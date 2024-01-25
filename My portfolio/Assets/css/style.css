@@ -1,0 +1,229 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    /* scroll-behavior: smooth; */
+    background-color: palegoldenrod ;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+}
+#Education{
+    width: 100%;
+    height: 100vh;
+}
+#skills{
+    width: 100%;
+    height: 100vh;
+}
+#projectss{
+    width: 100%;
+    height: 100vh;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact_us{
+    width: 100%;
+    height: 100vh;
+}
+h5{
+    color: white;
+}
+hr{
+    border: 2px solid black;
+}
+.section1
+{
+    padding:1%;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.profile_photo{
+    border: 3px solid black;
+    width: 20%;
+    filter: drop-shadow(30px 12px 9px black);
+    border-radius: 50% 20% 50% 20%;
+    background-color: transparent;
+    opacity: 90%;
+}
+.section2{
+    background:transparent;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7%;
+    /* box-shadow: 2px 3px 9px black; */
+}
+.profile_photo:hover{
+    opacity: 100%;
+}
+.intro{
+    color: black;
+    font-size: 29px;
+    padding-top: 5%;
+    /* text-shadow: 2px 3px 20px black; */
+}
+.c_img1{
+    width: 20%;
+    height: 20vh;
+    border-left: 3px solid darkslategray;
+}
+
+.College1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.c_img{
+    border-left: 3px solid darkslategray;
+}
+
+.hsc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-right: 3px solid black;
+}
+
+.image{
+    border-radius: 100px;
+    height: 20vh;
+    width: 20%;
+    border: 1px solid black;
+    filter: blur(0.5px);
+    transition: 1.0s ease;
+    cursor: grab;
+}
+.image:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transform: scale(1.1);
+    filter: blur(0px);
+}
+.row{
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    gap: 80px;
+    
+}
+
+.rows{
+    padding-left: 8%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+/* .rows a{
+    background-color: rgba(0,0,0,0.20);
+} */
+/* .rows~img{
+    height: 80vh;
+    width: 100%;
+} */
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+/* Form design  */
+
+.form1{
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: 2px 8px 10px royalblue;
+    width: 22rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px 10px 100px 10px;
+    padding: 5%;
+}
+.form1 .user {
+    /* border: 1px solid black; */
+    /* margin: 50px 0px 0px 80px; */
+}
+input{
+    border-radius: 50px 100px 200px 0px;
+    background-color: transparent;
+
+}
+/* .email{
+    /* margin: 5px 0px 0px 79px; */
+textarea{
+    border: 2px solid black;
+    /* margin-left: 80px; */
+    border-radius: 50px 70px 200px 0px;
+    background-color: transparent;
+}
+button{
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.goup{
+    padding: 1%;
+    width: 100%;
+    color: black;
+    border-radius: 10px;
+}
+
+.goups{
+    display: none;
+    padding: 1%;
+    width: 100%;
+    color: black;
+    border-radius: 10px;
+    margin-top: -100px;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.navbar:hover{
+    padding: 15px;
+}
+
+#resume{
+    /* padding: 1%; */
+    background-color:whitesmoke;
+    border: 2px solid black;
+    color: black;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 20px 5px 20px;
+}
+#resume:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 1em black;
+}
+.details-anch{
+    color: black;
+    font-weight: bolder;
+}
+.details-anch:hover{
+    text-decoration: underline;
+    color: rgba(13,42,531,1.50);
+}
